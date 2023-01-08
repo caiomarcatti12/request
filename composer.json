@@ -1,0 +1,23 @@
+{
+  "name": "caiomarcatti12/request",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Caio Marcatti",
+      "email": "caiomarcatti12@gmail.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "CaioMarcatti12\\Request\\" :  "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "ext-curl": "*"
+  }
+}
